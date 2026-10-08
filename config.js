@@ -1,4 +1,20 @@
-// config.js - കേന്ദ്രീകൃത Supabase കോൺഫിഗറേഷനും സൗദി ബിസിനസ്സ് തീയതിയും
+// config.js - മൾട്ടി-ഷോപ്പ് Supabase കോൺഫിഗറേഷൻ
+window.SHOPS_CONFIG = [
+  {
+    id: 'shop1',
+    name: 'NASSER BIN EID ALMAHMADI',
+    url: 'https://elubqoicerkldrufqcbj.supabase.co',
+    key: 'sb_publishable_zsEKreCmounELozZ5EQ3Lg_aXyut9EK'
+  },
+  {
+    id: 'shop2',
+    name: 'BOOFIYA',
+    url: 'https://qkjcviszzdptssvpguwc.supabase.co',
+    key: 'sb_publishable_J0Z4b7NoP3VuDKdbC0WeIg_OQAlpnLQ'
+  }
+];
+
+// ഡിഫോൾട്ട് കോൺഫിഗറേഷൻ (മറ്റ് ഫയലുകൾക്ക് ആവശ്യമെങ്കിൽ ഉപയോഗിക്കാൻ)
 window.GLOBAL_CONFIG = {
   supabaseUrl: 'https://elubqoicerkldrufqcbj.supabase.co',
   supabaseKey: 'sb_publishable_zsEKreCmounELozZ5EQ3Lg_aXyut9EK'
